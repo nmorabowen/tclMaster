@@ -212,7 +212,7 @@ class TclPreprocessor:
             old_string (str): The exact string content to search for.
             new_string (str): The replacement string.
 
-        Returns:
+        Returns:  
             int: The total number of replacements made across the entire file.
         """
         target_file = self.model.utilities.verify_tcl_file(filename)
